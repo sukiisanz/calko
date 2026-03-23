@@ -26,12 +26,16 @@ No necesitas instalar nada. Ve a la sección de **[Releases](../../releases)** (
 
 > **⚠️ AVISO IMPORTANTE**
 > Como Calko es software independiente y gratuito, tu sistema operativo podría intentar "protegerte" al no reconocer a la autora. No te preocupes, es normal:
-Windows: Si aparece el aviso de SmartScreen, haz clic en "Más información" y luego en "Ejecutar de todas formas".
-macOS: Si te dice que no se puede abrir porque el desarrollador no está identificado, no hagas doble clic. Haz clic derecho (o Ctrl + clic) sobre el archivo y selecciona Abrir. Luego confirma en el cuadro de diálogo.
-Linux: Es posible que necesites dar permisos de ejecución al archivo. Abre la terminal en la carpeta de descarga y ejecuta:
-```bash
-chmod +x Calko-Linux
-```
+>
+> **Windows:** Si aparece el aviso de SmartScreen, haz clic en "Más información" y luego en "Ejecutar de todas formas".
+> 
+> **macOS:** Si te dice que no se puede abrir porque el desarrollador no está identificado, no hagas doble clic. Haz clic derecho (o Ctrl + clic) sobre el archivo y selecciona Abrir. Luego confirma en el cuadro de diálogo.
+>
+> **Linux:** Es posible que necesites dar permisos de ejecución al archivo. Abre la terminal en la carpeta de descarga y ejecuta:
+> ```bash
+> chmod +x Calko-Linux
+> ```
+
 
 ## ⌨️ Atajos de Teclado
 | Acción | Atajo |
