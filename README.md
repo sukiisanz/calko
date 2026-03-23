@@ -13,7 +13,10 @@ Una vez bloqueada, **los clics de tu ratón o lápiz pasarán a través de ella*
 * **Portable:** Sin instalaciones molestas. Descarga, doble clic y a dibujar.
 
 ## 🚀 Descarga y Uso (Portable)
-No necesitas instalar nada. Ve a la sección de **[Releases](../../releases)** (Lanzamientos) en la derecha de esta página y descarga la última versión para tu sistema operativo (ej. `calko.exe` para Windows).
+No necesitas instalar nada. Ve a la sección de **[Releases](../../releases)** (Lanzamientos) en la derecha de esta página y descarga el archivo correspondiente a tu sistema:
+- Windows: Calko-Windows.exe
+- Linux: Calko-Linux
+- macOS: Calko-Mac
 
 1. Abre la aplicación.
 2. Arrastra una imagen (o usa `Ctrl+O` para abrir desde el ordenador o `Ctrl+V` si tienes la imagen en el portapapeles).
@@ -21,10 +24,14 @@ No necesitas instalar nada. Ve a la sección de **[Releases](../../releases)** (
 4. Pulsa **Tab** para bloquear y desbloquear la ventana.
 5. ¡Dibuja en tu programa favorito por debajo de Calko!
 
-> **⚠️ AVISO IMPORTANTE PARA USUARIOS DE WINDOWS (SmartScreen)**
-> Como Calko es una herramienta independiente, gratuita y de código abierto (open-source), no cuenta con un "certificado digital de pago". Es muy probable que la primera vez que abras el `.exe`, Windows Defender muestre una pantalla azul diciendo *"Windows protegió su PC"*.
-> 
-> **Para abrirlo:** Simplemente haz clic en **"Más información"** y luego en el botón **"Ejecutar de todas formas"**. Esto solo te lo pedirá la primera vez.
+> **⚠️ AVISO IMPORTANTE**
+> Como Calko es software independiente y gratuito, tu sistema operativo podría intentar "protegerte" al no reconocer a la autora. No te preocupes, es normal:
+Windows: Si aparece el aviso de SmartScreen, haz clic en "Más información" y luego en "Ejecutar de todas formas".
+macOS: Si te dice que no se puede abrir porque el desarrollador no está identificado, no hagas doble clic. Haz clic derecho (o Ctrl + clic) sobre el archivo y selecciona Abrir. Luego confirma en el cuadro de diálogo.
+Linux: Es posible que necesites dar permisos de ejecución al archivo. Abre la terminal en la carpeta de descarga y ejecuta:
+```bash
+chmod +x Calko-Linux
+```
 
 ## ⌨️ Atajos de Teclado
 | Acción | Atajo |
