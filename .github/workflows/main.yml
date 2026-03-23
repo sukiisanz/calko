@@ -2,8 +2,8 @@ name: Compilar Calko (Windows, Mac, Linux)
 
 on:
   push:
-    branches: [ "main" ] # Se ejecuta cada vez que subes cambios
-  workflow_dispatch:     # Te permite ejecutarlo manualmente con un botón
+    branches: [ "main" ] 
+  workflow_dispatch:     
 
 jobs:
   build:
@@ -11,7 +11,6 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        # Aquí le decimos a GitHub qué computadoras encender
         os: [windows-latest, macos-latest, ubuntu-latest]
 
     steps:
@@ -23,18 +22,18 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Instalar librerías (PyQt6, QtAwesome, PyInstaller)
+    - name: Instalar librerías
       run: |
         python -m pip install --upgrade pip
-        pip install PyQt6 qtawesome pyinstaller
+        python -m pip install PyQt6 qtawesome pyinstaller
 
     - name: Compilar con PyInstaller (Windows)
       if: matrix.os == 'windows-latest'
-      run: pyinstaller --noconsole --onefile --icon=logo-calko.png --add-data "logo-calko.png;." --collect-all qtawesome calko.py
+      run: python -m PyInstaller --noconsole --onefile --icon=logo-calko.png --add-data "logo-calko.png;." --collect-all qtawesome calko.py
 
     - name: Compilar con PyInstaller (Mac y Linux)
       if: matrix.os != 'windows-latest'
-      run: pyinstaller --noconsole --onefile --add-data "logo-calko.png:." --collect-all qtawesome calko.py
+      run: python -m PyInstaller --noconsole --onefile --add-data "logo-calko.png:." --collect-all qtawesome calko.py
 
     - name: Guardar el archivo ejecutable listo
       uses: actions/upload-artifact@v4
