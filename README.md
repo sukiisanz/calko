@@ -36,6 +36,7 @@ No necesitas instalar nada. Ve a la sección de **[Releases](../../releases)** (
 | **Guardar sesión actual (`.calko`)** | `Ctrl + S` |
 | **Espejo Horizontal / Vertical** | `H` / `V` |
 | **Ajustar a ventana / Zoom 100%** | `Ctrl + F` / `Ctrl + 0` |
+| **Subir / Bajar zoom** | `Scroll del ratón` |
 | **Subir / Bajar opacidad** | `+` / `-` |
 | **Cerrar Calko** | `Ctrl + W` |
 
