@@ -48,6 +48,7 @@ Si prefieres correr Calko directamente desde Python o quieres contribuir al cód
    ```bash
     pip install PyQt6 qtawesome
 3. Ejecuta el script principal:
+   ```bash
    python calko.py
 
 🤝 Contribuciones y Feedback
