@@ -5,7 +5,7 @@ Calko es una herramienta open-source y portable diseñada para facilitarte la vi
 
 Una vez bloqueada, **los clics de tu ratón o lápiz pasarán a través de ella**, permitiéndote calcar o usarla como guía de proporciones directamente en tu lienzo.
 
-<video src="https://github.com/sukiisanz/calko/blob/main/Calko.mp4></video>
+<video src="https://github.com/sukiisanz/calko/blob/main/Calko.mp4"></video>
 
 ## ✨ Características principales
 * **Fondo 100% transparente:** Solo verás la imagen que vas a calcar o referenciar.
