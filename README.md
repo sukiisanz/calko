@@ -5,7 +5,7 @@ Calko es una herramienta open-source y portable diseñada para facilitarte la vi
 
 Una vez bloqueada, **los clics de tu ratón o lápiz pasarán a través de ella**, permitiéndote calcar o usarla como guía de proporciones directamente en tu lienzo.
 
-<video src="https://github.com/sukiisanz/calko/blob/main/Calko.mp4"></video>
+<video src="https://private-user-images.githubusercontent.com/62731828/568510702-0a8be05e-e6b8-47f9-88e3-3fb4ca7b3b53.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQzNjk1NzUsIm5iZiI6MTc3NDM2OTI3NSwicGF0aCI6Ii82MjczMTgyOC81Njg1MTA3MDItMGE4YmUwNWUtZTZiOC00N2Y5LTg4ZTMtM2ZiNGNhN2IzYjUzLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzI0VDE2MjExNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZkZTE0ZGU4YjMzOGZkNWJmNzA1OWFiM2FkNWMzNjE5ZGMxY2U2YjhjNTA5MTIyNDQzYzY5NzIyZjRkZWZmZmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Kq8GGTZjnTiShLZud18Q2xNFR5XB7AGDwB0YEpEqi7w" controls width="100%"></video>
 
 ## ✨ Características principales
 * **Fondo 100% transparente:** Solo verás la imagen que vas a calcar o referenciar.
